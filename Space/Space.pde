@@ -2,10 +2,11 @@
 // so try declaring one Particle first, then instantiate it in setup, and use move and show in draw()
 
 void setup() {
-	//your code here
-} //end of setup
+	size(800,600);
+  background(0);
+}
  
 
 void draw() {
-	//your code here
-} //end of draw
+	
+}

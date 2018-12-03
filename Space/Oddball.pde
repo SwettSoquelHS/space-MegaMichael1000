@@ -1,1 +1,3 @@
-
+class Oddball extends Normal {
+  
+}
