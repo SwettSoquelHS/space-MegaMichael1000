@@ -3,7 +3,6 @@ class Jumbo extends Normal {
     super(x_pos, y_pos, speed, angle, r, g, b);
   }
   
-  @Override
   void show() {
     pushMatrix();
     translate(x_pos,y_pos);
