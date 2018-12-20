@@ -4,7 +4,6 @@ class Oddball extends Normal {
     super(x_pos, y_pos, speed, angle,r,g,b);
   }
   
-  @Override
   void move() {
     anglechange = (float)(Math.random()-0.5);
     x_pos = x_pos + cos(angle) * speed;
